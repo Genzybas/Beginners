@@ -1,0 +1,139 @@
+.container{
+    position: fixed;
+    top: 0px;
+}
+body{
+    background-image: none;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    border: transparent;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+}
+.container{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+}
+.items a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+}
+.items :hover{
+    background-color: #717171;
+    
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin-right: 150px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15%;
+}
+.logo img{
+    height: 80%;
+    width: 12%;
+}
+
+
+
+.contain{
+    box-shadow: 0px 1px 5px black;
+    width: 70%;
+    display: flex;
+    height: 70%;
+}
+.contain .image{
+    width: 55%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.wrap{
+    width: 45%;
+    display: flex;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin-left: 50px;
+}
+input{
+    width: 100%;
+    border: transparent;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+button{
+    background-color: brown;
+    color: white;
+    border: transparent;
+    width: 80%;
+    padding: 10px 0px;
+    border-radius: 46px;
+    font-size: 14px;
+    font-weight: 800;
+}
+input :focus{
+    outline: transparent;
+}
+.box :hover{
+    outline: chocolate solid 1px;
+}
+.box{
+    border: grey solid 1.4px;
+    width: 80%;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+.itema{
+    width: 80%;
+    margin-top: 21px;
+}
+h1{
+    font-family: 'lobster', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.title{
+    font-size: 18px;
+    font-weight: 900;
+}
+.register{
+    margin-top: 3px;
+}

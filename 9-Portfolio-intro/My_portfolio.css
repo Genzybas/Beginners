@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+.nav{
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: white;
+}
+span{
+    color: #f9004d;
+
+}
+.links{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+.links a:hover{
+    transition: 0.2s;
+    color: #f9004d;
+    
+}
+.hire{
+    border: transparent;
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: #f9004d;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+.hire:hover{
+    padding: 10px 58px;
+    cursor: pointer;
+}
+.hero{
+    background-color: black;
+    background-image: url("./images/-wztt5w-removebg-preview.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.content{
+    position: relative;
+    top: 30%;
+    left: 100px;
+}
+.hello{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fcfc;
+    letter-spacing: 1px;
+}
+.devname{
+    font-size: 75px;
+    font-weight: 900;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.web{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+form{
+    background-color: white;
+    width: 388px;
+    padding: 2px 0 0 3px;
+    border-radius: 50px;
+    border: solid #f9004d 2px;
+}
+.email{
+    padding: 12px 0 0 10px;
+    border-radius: 50px;
+    width: 70%;
+    outline: none;
+    border: transparent;
+}
+.start{
+    width: 108px;
+    padding: 12px 0;
+    border: transparent;
+    background-color: #f9004d;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 2px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+
+}
+.about{
+    height: 100vh;
+    padding: 10px 60px;
+    background-color: #191919;
+    color: white;
+}
+.main{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    
+}
+img{
+    height: 96%;
+    width: 400px;
+}
+.aboutext{
+    width: 40%;
+    margin-top: 80px;
+    
+}
+.aboutme{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.designer{
+    font-size: 35px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.aboutext p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    font-family: sans-serif;
+}
+.talk{
+    padding: 15px 36px;
+    border: transparent;
+    background-color: #f9004d;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+
+}
+.talk:hover{
+    background-color: #191919;
+    border: solid #f9004d 2px;
+    color: white;
+}

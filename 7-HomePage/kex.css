@@ -1,0 +1,67 @@
+body{
+    background-image: url("./11\ black-investor.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.item{
+    color: chocolate;
+    position: absolute;
+    max-width: 500px;
+    top: 150px;
+    left: 80px;  
+}
+.item h1{
+    font-size: 35px;
+    font-weight: 900px;
+    /* font-family: cursive; */
+}
+.item p{
+    font-size: 20px;
+}
+button{
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    border: transparent;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+}
+.container{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+}
+.items a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+}
+.items :hover{
+    background-color: #717171;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin-right: 150px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15%;
+}
+.logo img{
+    height: 80%;
+    width: 12%;
+}
